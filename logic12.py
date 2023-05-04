@@ -6,4 +6,7 @@ def main(a):
     Returns:
         bool: answer
     """
-    return
+    return str(a[0]) == str(a[1])
+
+v = main('27')
+print(v)
