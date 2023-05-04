@@ -8,4 +8,15 @@ def main(x):
     Returns:
         bool: answer
     """
-    return 
+    # m = x%10 #3digit number
+    # n= x//10//10
+
+    m = x %2 #2digit number
+    n = x//10
+
+
+    return  n ==m
+
+v = main(10)
+print(v)
+
