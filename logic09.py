@@ -7,4 +7,10 @@ def main(a,b):
     Returns:
         bool: answer
     """
-    return
+    
+
+    p = a%2==1 or b%2==1
+    return p
+
+v  = main(5,3)
+print(v)
