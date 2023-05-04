@@ -8,4 +8,10 @@ def main(a,b,c):
     Returns:
         bool: answer
     """
-    return
+    if b>a and b<c:
+        return True
+    else:
+        return False
+
+v = main(3,4,5)
+print(v)
