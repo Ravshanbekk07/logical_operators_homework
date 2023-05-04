@@ -7,4 +7,11 @@ def main(a,b):
     Returns:
         bool: answer
     """
-    return
+    if a>0 and b>0:
+     return True
+    else:
+       return False
+
+
+v = main(5,-4)
+print(v)
